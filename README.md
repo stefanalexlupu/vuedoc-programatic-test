@@ -5,20 +5,12 @@
 npm install
 ```
 
-### Compiles and hot-reloads for development
+## Run with CLI to see expected result
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+npx vuedoc.md src/components/HelloWorld.vue
 ```
 
-### Lints and fixes files
+## Run programatically and get error
 ```
-npm run lint
+node vuedoc.js
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
